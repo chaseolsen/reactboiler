@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import Dashboard from './Dashboard';
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
+//You can also change HashRouter to BrowserRouter to remove /#/ from url. Still figuring out how API calls will work with it.
+
+import Home from './js/pages/Home';
+import Dashboard from './js/pages/Dashboard';
 
 class App extends Component {
   render() {
     return (
     <Router>
         <div>
-          <h2>Welcome to React Router Tutorial</h2>
+          <h2>Welcome to my React Boilerplate</h2>
           <ul>
             <li><Link to={'/'}>Home</Link></li>
             <li><Link to={'/dashboard'}>Dashboard</Link></li>
