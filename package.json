@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server"
   },
-  "author": "KRUNAL LATHIYA",
+  "author": "Chase Olsen",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -20,5 +20,8 @@
     "react-router-dom": "^4.2.2",
     "webpack": "^2.3.2",
     "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "morgan": "^1.9.0"
   }
 }
